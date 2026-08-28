@@ -5,9 +5,13 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   collect:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -20,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run the extractor
+      - name: Run the data extractor
         env:
           TOMTOM_KEY: ${{ secrets.TOMTOM_KEY }}
         run: python mumbai_triggered_extractor.py
@@ -29,6 +33,12 @@ jobs:
         run: |
           git config --global user.name "traffic-bot"
           git config --global user.email "actions@github.com"
+
           git add mumbai_traffic_log.csv mumbai_weather_log.csv
-          git diff --staged --quiet || git commit -m "Auto: traffic/weather data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          git push
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto: traffic/weather data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          else
+            echo "No new data changes to commit"
+          fi
