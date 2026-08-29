@@ -1,5 +1,6 @@
 name: Mumbai Traffic Data Collector
 
+# Scheduled Mumbai traffic/weather collection
 on:
   schedule:
    - cron: "7,22,37,52 * * * *"
