@@ -1,0 +1,33 @@
+seg_id,corridor,priority,osm_id,road_name,lat,lon
+SEED01,WEH,1,,"Western Express Hwy, Bandra (verified in your log)",19.0596,72.8656
+SEED02,WEH,1,,Andheri SEEPZ (verified in your log),19.1197,72.8468
+SEED03,WEH,1,,Malad-Kandivali (verified in your log),19.0861,72.8529
+SEED04,EEH,1,,"Eastern Express Hwy, Sion (verified in your log)",19.0448,72.8619
+WEH01,WEH,1,way/1125805234,,19.080308,72.84707
+EEH01,EEH,1,way/589136856,Eastern Express Highway,19.05331,72.882396
+EEH02,EEH,1,way/217108178,Eastern Express Highway,19.09236,72.925636
+EEH03,EEH,1,way/241241313,Eastern Express Turnpike,19.236023,72.976186
+JVLR01,JVLR,1,way/1274595607,Jogeshwari-Vikhroli Link Road,19.123991,72.912636
+JVLR02,JVLR,1,way/618748747,Jogeshwari-Vikroli Link Road,19.124067,72.938406
+JVLR03,JVLR,1,way/1254127093,Jogeshwari Vikhroli Link Road,19.134362,72.874516
+JVLR04,JVLR,1,way/1251115919,Jogeshwari Vikhroli Link Road,19.14068,72.855003
+SIONPA01,Sion-Panvel Hwy,1,way/1235796610,Sion Panvel Highway,19.043596,72.923217
+SIONPA02,Sion-Panvel Hwy,1,way/1274077284,Sion Panvel Highway,19.046241,72.909002
+SIONPA03,Sion-Panvel Hwy,1,way/1274398179,Sion Panvel Highway,19.054001,72.894541
+GHATKO01,Ghatkopar-Mankhurd Link,1,way/969726838,Ghatkopar - Mankhurd Link Road,19.05107,72.93692
+GHATKO02,Ghatkopar-Mankhurd Link,1,way/1053255586,Ghatkopar - Mankhurd Link Road,19.063103,72.914444
+LBS01,LBS Marg,2,way/1266513702,Lal Bahadur Shastri Marg,19.075879,72.877359
+LBS02,LBS Marg,2,way/1235814446,Lal Bahadur Shastri Marg,19.125015,72.925312
+LBS03,LBS Marg,2,way/1293647948,Lal Bahadur Shastri Marg,19.172013,72.940911
+LBS04,LBS Marg,2,way/1299085431,Lal Bahadur Shastri Marg,19.201339,72.973939
+SCLR01,SCLR,2,way/275761815,Santa Cruz – Chembur Link Road,19.067345,72.888698
+SCLR02,SCLR,2,way/1266798834,Santa Cruz – Chembur Link Road,19.074356,72.86061
+GOREGA01,Goregaon-Mulund Link,2,way/621990855,Goregaon - Mulund Link Road,19.156251,72.949908
+GOREGA02,Goregaon-Mulund Link,2,way/1296662534,Goregaon Mulund Link Road,19.172575,72.854063
+GOREGA03,Goregaon-Mulund Link,2,way/1296359702,Goregaon Mulund Link Road,19.173793,72.83654
+SWAMI01,Swami Vivekanand Rd,2,way/1238867133,Swami Vivekanand Road,19.050167,72.838345
+SWAMI02,Swami Vivekanand Rd,2,way/1236038612,Swami Vivekanand Road,19.158961,72.846001
+SWAMI03,Swami Vivekanand Rd,2,way/1156525648,Swami Vivekanand Road,19.255595,72.870439
+SIONBA01,Sion-Bandra Link,2,way/22849347,Sion Bandra Link Road,19.04681,72.851856
+DR01,Dr B A Marg,2,way/1235466411,Dr Babasaheb Ambedkar Marg,18.974017,72.833886
+DR02,Dr B A Marg,2,way/102161593,Dr Babasaheb Ambedkar Marg (Vincent Road),19.017656,72.84741
